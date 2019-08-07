@@ -1,6 +1,5 @@
 language: java
-sudo: false
-jdk: oraclejdk8
+dist: xenial
+jdk:
+ - openjdk8  
 script: mvn package -Dmaven.javadoc.skip=true -B -V
-
-
